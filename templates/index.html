@@ -1,9 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head></head>
-    <main>
-        <h1>漢字対戦 Kanji Taisen</h1>
-        <h2>Coming Soon...</h2>
-        <h3>Henry S. Friman 2024</h3>
-    </main>
-</html>
+{% extends "layout.html" %}
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<div class="content">
+    <h1>Kanji Taisen</h1>
+    <div class="text-section">
+        <h2>Learn Japanese Kanjis in This Exciting Game</h2>
+        <ul>
+            <li>Survive <b>a 20-round quiz</b> of randomly selected Kanjis (based on the chosen difficulty)</li>
+            <li>Share your <b>final score</b> and see your <b>global ranking</b></li>
+            <li>Every playtime is different: a good addition to Japanese study sessions</li>
+        </ul>
+    </div>
+    <button class="custom-button" type="button">PRESS TO START</button>
+</div>
+{% endblock %}
